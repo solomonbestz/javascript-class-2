@@ -7,7 +7,7 @@ const questions = ['Biggest Animal?', 'General Overseer Of MFM', 'What continent
 const answers = ['Whale', 'Daniel Olukoya', 'Africa', 'Steve Jobs', 'Robert Hooke', 'Whiz Khalifa']
 
 
-for(let num = 5; num >= 0; num--){
+for(let num = 0; num < questions.length; num++){
     console.log(questions[num])
     let user_answer = input('Enter Answer: ')
     if(user_answer.toLowerCase() === answers[num].toLowerCase()){
